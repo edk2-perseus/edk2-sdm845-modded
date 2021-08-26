@@ -717,8 +717,8 @@ PlatformBootManagerAfterConsole (
               EFI_GLYPH_WIDTH) / 2;
       PosY = 0;
 
-      PrintXY (PosX, PosY, NULL, NULL, VERSION_STRING_PREFIX L"%s",
-        PcdGetPtr (PcdFirmwareVersionString));
+      //PrintXY (PosX, PosY, NULL, NULL, VERSION_STRING_PREFIX L"%s",
+      //  PcdGetPtr (PcdFirmwareVersionString));
     }
   }
 
